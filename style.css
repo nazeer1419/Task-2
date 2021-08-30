@@ -1,0 +1,159 @@
+.slidecontainer, .container {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.my_header {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  width:100%;
+  display: inline;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.left {
+  left: 0;
+  background-color: f7f7f7;
+}
+
+.right {
+  right: 0;
+  background-color: f6d7c1;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 25px;
+  display: inline;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.name, .value {
+  display: inline;
+  vertical-align: super;
+}
+
+.button_holder {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+
+.button {
+  font-size: 1.2em;
+  color: white;
+  padding: 12px 24px;
+  margin: 0px 16px;
+  text-align: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #008CBA;
+  border: 2px solid #008CBA;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.rectangle, .circle {
+  display: inline;
+  background-color: 14a1de;
+  border-color: 105878;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.rectangle {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 15px;
+}
+
+.rectangle:hover {
+  opacity: 0.7;
+  background-color: a0eaff;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  opacity: 0.7;
+  background-color: a0eaff;
+}
+
+.link_button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 15px;
+  display: inline;
+  background-color: 8ad1f1;
+  border-color: 105878;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.link_button:hover {
+  background-color: 3ec3ff;
+}

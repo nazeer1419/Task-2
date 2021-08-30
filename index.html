@@ -1,0 +1,43 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div>
+		<div class="split left">
+			<div class="centered">
+				<img src="transparent robot arm2.png" alt="robotic arm" style="display: block; margin: 25px">
+				<p1>Welcom To The Robotic Arm Control Center</p1>
+			</div>
+		</div>
+		<div class="split right">
+			<div class="centered">
+				<p1>Please Select Which One You Want To Control:</p1>
+				<form action="arm_base_control.html">
+					<input class="link_button" type="submit" value="Arm Base Control" style="margin-top: 25px">
+				</form>
+				<form action="arm_joint_control.html">
+					<input class="link_button" type="submit" value="Arm Joint Control">
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<script>
+		  window.watsonAssistantChatOptions = {
+			  integrationID: "5f9b0717-6984-4b88-b18e-75ec617d85fc", // The ID of this integration.
+			  region: "eu-gb", // The region your integration is hosted in.
+			  serviceInstanceID: "c06325ae-45c2-460e-b5ea-beccdd4914d6", // The ID of your service instance.
+			  onLoad: function(instance) { instance.render(); }
+			};
+		  setTimeout(function(){
+			const t=document.createElement('script');
+			t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js"
+			document.head.appendChild(t);
+		  });
+		</script>
+	</footer>
+</body>
+</html>
